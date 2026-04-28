@@ -396,6 +396,29 @@
   }
   .review-card .author strong{display:block;color:var(--ink);font-family:'Cormorant Garamond',serif;font-size:17px;letter-spacing:.04em;text-transform:none;margin-bottom:2px;font-weight:500}
 
+  /* ------------- Fit guide cards ------------- */
+  .guide-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px;
+  }
+  .guide-card{
+    background:var(--ivory);border:1px solid var(--line);
+    padding:34px 30px;min-height:280px;
+    display:flex;flex-direction:column;justify-content:space-between;
+    transition:transform .3s ease, box-shadow .3s ease;
+  }
+  .guide-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 44px rgba(29,25,21,.10);
+  }
+  .guide-card h3{
+    font-family:'Cormorant Garamond',serif;font-size:30px;line-height:1.08;
+    font-weight:500;margin:12px 0 14px;
+  }
+  .guide-card p{color:var(--mute);font-size:14px;margin:0 0 24px}
+  .guide-card .text-link{
+    font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--rose);
+  }
+
   /* ------------- FAQ ------------- */
   .faq{background:var(--ivory)}
   .faq-list{max-width:820px;margin:0 auto;border-top:1px solid var(--line)}
@@ -464,6 +487,7 @@
     .color-grid{grid-template-columns:repeat(5,1fr);gap:12px}
     .craft-grid{grid-template-columns:repeat(2,1fr)}
     .review-grid{grid-template-columns:1fr 1fr}
+    .guide-grid{grid-template-columns:1fr}
     .foot-grid{grid-template-columns:1fr 1fr}
   }
   @media (max-width: 860px){
@@ -509,6 +533,7 @@
     <nav class="nav-links">
       <a href="#collection">Collection</a>
       <a href="#fit">Fit Guide</a>
+      <a href="#guides">Guides</a>
       <a href="#craft">Craft</a>
       <a href="#fit-notes">Fit Notes</a>
     </nav>
@@ -842,6 +867,44 @@
   </div>
 </section>
 
+<!-- ============ FIT GUIDES ============ -->
+<section id="guides" class="section">
+  <div class="container">
+    <div class="section-title">
+      <span class="divider"></span>
+      <span class="eyebrow">Fit Education</span>
+      <h2>Start with the <em>fit question</em></h2>
+      <p>Three practical guides for fuller-bust shoppers comparing coverage, cup finish and everyday bra rotation before buying.</p>
+    </div>
+    <div class="guide-grid">
+      <a class="guide-card" href="fuller-bust-bra-fit-guide.html">
+        <div>
+          <span class="eyebrow">Fuller-Bust Basics</span>
+          <h3>How to choose a fuller-bust underwire bra.</h3>
+          <p>Band support, wire shape, fabric cups and size checks for 38C-44C shoppers.</p>
+        </div>
+        <span class="text-link">Read the guide →</span>
+      </a>
+      <a class="guide-card" href="half-cup-vs-three-quarter-cup-bras.html">
+        <div>
+          <span class="eyebrow">Coverage Guide</span>
+          <h3>1/2 cup vs 3/4 cup bras.</h3>
+          <p>What each silhouette changes for neckline, coverage and everyday comfort.</p>
+        </div>
+        <span class="text-link">Compare coverage →</span>
+      </a>
+      <a class="guide-card" href="bra-rotation-5-pack-guide.html">
+        <div>
+          <span class="eyebrow">Everyday Rotation</span>
+          <h3>Why a five-bra rotation helps.</h3>
+          <p>How rotating bras can keep elastic fresher and outfits easier through the week.</p>
+        </div>
+        <span class="text-link">Plan a rotation →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- ============ FAQ ============ -->
 <section class="faq section">
   <div class="container-narrow">
@@ -900,6 +963,7 @@
         <li><a href="https://www.amazon.com/dp/B0GC66TXDR" target="_blank" rel="noopener">The 5-Pack Set</a></li>
         <li><a href="#collection">The Silhouettes</a></li>
         <li><a href="#fit">Fit Guide</a></li>
+        <li><a href="fuller-bust-bra-fit-guide.html">Fuller-Bust Guide</a></li>
       </ul>
     </div>
     <div>
@@ -907,6 +971,7 @@
       <ul>
         <li><a href="#craft">Materials &amp; Craft</a></li>
         <li><a href="#fit-notes">Fit Notes</a></li>
+        <li><a href="half-cup-vs-three-quarter-cup-bras.html">Coverage Guide</a></li>
         <li><a href="#top">Our Story</a></li>
       </ul>
     </div>
@@ -915,6 +980,7 @@
       <ul>
         <li><a href="https://www.amazon.com/dp/B0GC66TXDR" target="_blank" rel="noopener">Order via Amazon</a></li>
         <li><a href="#">Shipping &amp; Returns</a></li>
+        <li><a href="bra-rotation-5-pack-guide.html">Bra Rotation Guide</a></li>
         <li><a href="https://www.amazon.com/dp/B0GC66TXDR" target="_blank" rel="noopener">Questions on Amazon</a></li>
       </ul>
     </div>
