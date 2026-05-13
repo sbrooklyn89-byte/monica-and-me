@@ -120,12 +120,12 @@ website/
 ├── index.html        ← the page
 ├── DEPLOY.md         ← this guide
 └── assets/
-    ├── hero-group.png
-    ├── s1-life.png … s6-life.png
-    ├── s1-flat.png … s6-flat.png
-    ├── editorial-1.png
-    ├── editorial-2.png
-    └── editorial-3.png
+    ├── hero-group.jpg
+    ├── s1-life.jpg … s6-life.jpg
+    ├── s1-flat.jpg … s6-flat.jpg
+    ├── editorial-1.jpg
+    ├── editorial-2.jpg
+    └── editorial-3.jpg
 ```
 
 To change a photo: drop a new image into `assets/` with the same filename,
